@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS sistema_crud;
+USE sistema_crud;
+
+CREATE TABLE clientes (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255),
+    email VARCHAR(255) UNIQUE
+);
